@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.card > .badge {
+  position: absolute;
+  margin: 0.5em;
+}
+.card {
+  height: 42em;
+  margin: 0.4em;
+}
+.card > .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card-text > span {
+  cursor: pointer;
+}
